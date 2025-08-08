@@ -2,8 +2,8 @@ import { Container, Row, Col } from "react-bootstrap"
 import RadioEpisodes from "./RadioEpisodes"
 import OtherToExplore from "./OtherToExplore"
 import MainFooter from "./MainFooter"
+import NewReleases from "./NewReleases"
 import "./MainContent.css"
-// import NewReleases from "./NewReleases"
 
 function MainContent() {
   return (
@@ -48,17 +48,17 @@ function MainContent() {
                 </div>
               </Col>
             </Row>
-            <Row className="mt-5 offset-0">
+            <Row className="mt-5 g-3">
               <h2>
                 Nuovi episodi radio <i class="arrowIcon bi bi-caret-right"></i>
               </h2>
               <RadioEpisodes />
             </Row>
-            <Row className="mt-5">
+            <Row className="mt-5 g-3">
               <h2>
                 Nuove uscite <i class="arrowIcon bi bi-caret-right"></i>
               </h2>
-              {/* <NewReleases /> */}
+              <NewReleases />
             </Row>
             <Row className="mt-5 mb-5">
               <h2>Altro da esplorare</h2>

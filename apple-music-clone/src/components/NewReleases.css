@@ -1,0 +1,9 @@
+.newReleasesCard {
+  background-color: transparent;
+  color: white;
+  width: 100%;
+}
+
+.cardBody {
+  height: 100px;
+}
