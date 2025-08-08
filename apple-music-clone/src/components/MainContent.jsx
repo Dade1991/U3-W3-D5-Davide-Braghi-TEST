@@ -1,4 +1,7 @@
-import { Container, Row, Col, Card } from "react-bootstrap"
+import { Container, Row, Col } from "react-bootstrap"
+import RadioEpisodes from "./RadioEpisodes"
+import OtherToExplore from "./OtherToExplore"
+// import NewReleases from "./NewReleases"
 
 function MainContent() {
   return (
@@ -19,7 +22,7 @@ function MainContent() {
                 <img
                   src="./src/assets/images/1a.png"
                   alt="Apple Music Radio"
-                  className="w-100"
+                  className="w-100 rounded-3"
                 />
               </div>
             </Col>
@@ -31,18 +34,22 @@ function MainContent() {
               </div>
               <div className="w-100">
                 <img
-                  src="./src/assets/images/1a.png"
+                  src="./src/assets/images/1b.png"
                   alt="Apple Music Radio"
-                  className="w-100"
+                  className="w-100 rounded-3"
                 />
               </div>
             </Col>
           </Row>
-          <Row>
+          <Row className="mt-5">
             <h2>
               Nuovi episodi radio <i class="bi bi-caret-right"></i>
             </h2>
-            {/* <Card.Img variant="top" src="./src/assets/images/2a.png" /> */}
+            <RadioEpisodes />
+            {/* <NewReleases /> */}
+          </Row>
+          <Row>
+            <OtherToExplore />
           </Row>
         </Col>
       </Row>
