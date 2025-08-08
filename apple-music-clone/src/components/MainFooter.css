@@ -1,0 +1,18 @@
+.footerWhite {
+  color: white !important;
+}
+
+.footerContainer {
+  font-size: 0.8em;
+  color: #9a9a9a;
+}
+
+.footerContainer2 {
+  margin-left: 230px;
+}
+
+@media (max-width: 1199.98px) {
+  .footerContainer2 {
+    display: none;
+  }
+}

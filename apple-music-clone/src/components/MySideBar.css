@@ -1,0 +1,42 @@
+.mySideBar {
+  background: #252526 !important;
+  border-right: 1px solid #39393b;
+}
+
+.appleLogoSide {
+  color: white !important;
+}
+
+.navBarIcons {
+  color: #fa586a;
+}
+
+.sideBarLink:hover {
+  background-color: #39393b;
+  border-radius: 5px;
+}
+
+.searchWrapper {
+  position: relative;
+}
+
+.searchWrapper input {
+  padding-left: 2.2rem;
+  border-radius: 5px;
+  border: 1px solid #39393b;
+  background-color: #1f1f1f;
+  color: #333;
+}
+
+.searchWrapper input::placeholder {
+  color: #999;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 50%;
+  left: 0.8rem;
+  transform: translateY(-50%);
+  color: #fa586a;
+  pointer-events: none;
+}

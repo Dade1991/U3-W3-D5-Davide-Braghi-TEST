@@ -1,0 +1,15 @@
+.exploreButton {
+  color: #fa586a !important;
+  background-color: #2a2a2a;
+  border: none;
+}
+
+.exploreButton > p {
+  color: #fa586a !important;
+  font-weight: 500;
+}
+
+.exploreButton:hover {
+  background-color: #fa586b7e;
+  border: none;
+}

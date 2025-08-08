@@ -1,10 +1,11 @@
 import { Col, Card } from "react-bootstrap"
+import "./RadioEpisodes.css"
 
 function RadioEpisodes() {
   return (
     <>
-      <Col className="mt-2" md={2}>
-        <Card className="border-0">
+      <Col className="z-0 mt-2" sm={4} md={2}>
+        <Card className="radioCard border-0">
           <Card.Img
             className="rounded-3"
             variant="top"
@@ -18,8 +19,8 @@ function RadioEpisodes() {
           </Card.Body>
         </Card>
       </Col>
-      <Col className="mt-2" md={2}>
-        <Card className="border-0">
+      <Col className="z-0 mt-2" sm={4} md={2}>
+        <Card className="radioCard border-0">
           <Card.Img
             className="rounded-3"
             variant="top"
@@ -32,8 +33,8 @@ function RadioEpisodes() {
           </Card.Body>
         </Card>
       </Col>
-      <Col className="mt-2" md={2}>
-        <Card className="border-0">
+      <Col className="z-0 mt-2" sm={4} md={2}>
+        <Card className="radioCard border-0">
           <Card.Img
             className="rounded-3"
             variant="top"
@@ -48,8 +49,8 @@ function RadioEpisodes() {
           </Card.Body>
         </Card>
       </Col>
-      <Col className="mt-2" md={2}>
-        <Card className="border-0">
+      <Col className="z-0 mt-2" sm={4} md={2}>
+        <Card className="radioCard border-0">
           <Card.Img
             className="rounded-3"
             variant="top"
@@ -64,8 +65,8 @@ function RadioEpisodes() {
           </Card.Body>
         </Card>
       </Col>
-      <Col className="mt-2" md={2}>
-        <Card className="border-0">
+      <Col className="z-0 mt-2" sm={4} md={2}>
+        <Card className="radioCard border-0">
           <Card.Img
             className="rounded-3"
             variant="top"
@@ -80,8 +81,8 @@ function RadioEpisodes() {
           </Card.Body>
         </Card>
       </Col>
-      <Col className="mt-2" md={2}>
-        <Card className="border-0">
+      <Col className="z-0 mt-2" sm={4} md={2}>
+        <Card className="radioCard border-0">
           <Card.Img
             className="rounded-3"
             variant="top"

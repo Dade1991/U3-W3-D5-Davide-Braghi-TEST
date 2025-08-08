@@ -1,0 +1,34 @@
+.myTopBar {
+  background: #252526 !important;
+}
+
+.appleLogoTop {
+  color: white !important;
+}
+
+.signInTopBar {
+  color: #fa586a !important;
+}
+
+.hamburgerTopBar {
+  border: none;
+}
+
+.hamburgerTopBar .navbar-toggler-icon {
+  background-image: none;
+}
+
+.hamburgerTopBar::before {
+  content: "\2630";
+  color: #fa586a;
+  font-size: 1.5rem;
+}
+
+.navBarIcons {
+  color: #fa586a;
+}
+
+.topBarLink:hover {
+  background-color: #39393b;
+  border-radius: 5px;
+}
