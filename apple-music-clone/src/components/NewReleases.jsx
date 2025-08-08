@@ -51,11 +51,12 @@ function NewReleases() {
         <Col key={index} sm={6} md={2} className="mt-2">
           <Card className="newReleasesCard">
             <Card.Img
+              className="rounded-3"
               variant="top"
               src={track.album.cover_medium}
               alt={track.title}
             />
-            <Card.Body className="cardBody d-flex flex-row justify-content-between">
+            <Card.Body className="cardBody d-flex flex-row justify-content-between p-0 pt-1">
               <div>
                 <Card.Text className="mb-1">
                   {track.artist.name.length > 12

@@ -3,6 +3,7 @@ import RadioEpisodes from "./RadioEpisodes"
 import OtherToExplore from "./OtherToExplore"
 import MainFooter from "./MainFooter"
 import NewReleases from "./NewReleases"
+import MusicPlayer from "./MusicPlayer"
 import "./MainContent.css"
 
 function MainContent() {
@@ -10,6 +11,7 @@ function MainContent() {
     <>
       <Container>
         <Row>
+          <MusicPlayer />
           <Col className="px-0" lg={{ span: 10, offset: 2 }}>
             <div className="mt-3">
               <h1>Novità</h1>
@@ -54,7 +56,7 @@ function MainContent() {
               </h2>
               <RadioEpisodes />
             </Row>
-            <Row className="mt-5 g-3">
+            <Row className="mt-3 g-3">
               <h2>
                 Nuove uscite <i class="arrowIcon bi bi-caret-right"></i>
               </h2>
